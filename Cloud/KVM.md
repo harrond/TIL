@@ -2,9 +2,10 @@
  
 ###KVM이란?
 Linux Kernel에서 지원하는 가상화로 Hypervisor를 메모리 관리자나 파일 시스템등과 같은 Kernel의 sub module로 취급한다.
-*Full virtualization(전 가상화)*방식
++*Full virtualization(전 가상화)*방식
 >Guest OS가 Hypervisor의 존재를 알지 못한다. Binary Translation기법으로 가상화
-*Para Virtualization(반 가상화)*방식
+
++*Para Virtualization(반 가상화)*방식
 >Hypervisor에서 인식이 가능한 hyper call을 사용해 가상화
 
 ##제약

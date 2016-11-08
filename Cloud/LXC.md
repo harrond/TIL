@@ -17,13 +17,18 @@ Docker를 예로 들면 Host위에 Docker Engine이 떠서 수행을 하는데 V
 ##장점과 단점
 ####장점
 1.빠른 시작과 종료
+
 2.높은 집적도
+
 3.낮은 오버헤드
+
 4.애플리케이션 Container 지원
 
 ####단점
 1.Host OS에 종속적
+
 2.Container별 Kernel 구성이 불가능
+
 
 ##Container마다 분할되는 자원
 -프로세스 테이블
